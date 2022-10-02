@@ -1,3 +1,4 @@
+import secrets
 
 INTEGER_SETTINGS1 = {
 	0: 60,
@@ -21,3 +22,6 @@ INTEGER_SETTINGS1 = {
 
 # What integers should we use here?
 INTEGER_SETTINGS2 = {}
+
+SERVER_PID = 257049437023956657
+SERVER_KEY = secrets.token_bytes(16)
